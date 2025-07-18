@@ -1,5 +1,5 @@
 build:
-	pip install -r requirements.txt
+	 echo "hola"
 
 start:
-	python3 main.py
+	which python && which python3 && pip install -r requirements.txt && python3 main.py
